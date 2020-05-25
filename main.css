@@ -342,28 +342,28 @@ button,
     input[type="button"]:hover:active,
     button:hover:active,
     .button:hover:active {
-      background-color: rgba(206, 27, 40, 0.25); }
+      background-color: transparent; }
   input[type="submit"].primary,
   input[type="reset"].primary,
   input[type="button"].primary,
   button.primary,
   .button.primary {
     box-shadow: none;
-    background-color: #ce1b28;
+    background-color: #483d8b;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #e2212f;
+      background-color: #483d8b;
       box-shadow: none; }
       input[type="submit"].primary:hover:active,
       input[type="reset"].primary:hover:active,
       input[type="button"].primary:hover:active,
       button.primary:hover:active,
       .button.primary:hover:active {
-        background-color: #b71824; }
+        background-color: #483d8b; }
 
 /* Form */
 form {
@@ -505,7 +505,7 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: transparent;
   border-color: rgba(0, 0, 0, 0.25); }
   input[type="text"]:focus,
   input[type="password"]:focus,
@@ -533,13 +533,13 @@ input[type="radio"] + label {
     border-color: rgba(0, 0, 0, 0.25); }
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background-color: #ce1b28;
+  background-color: #483d8b;
   border-color: #ce1b28;
   color: #ffffff; }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
   border-color: #ce1b28;
-  box-shadow: 0 0 0 1px #ce1b28; }
+  box-shadow: 0 0 0 1px #483d8b; }
 
 ::-webkit-input-placeholder {
   color: #bbbbbb !important; }
@@ -1797,8 +1797,8 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: transparent;
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
