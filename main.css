@@ -1832,12 +1832,12 @@ ul.icons {
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
     color: #ffffff; }
   #banner blockquote {
-    border-left-color: rgba(255, 255, 255, 0.25); }
+    border-left-color: transparent; }
   #banner code {
     background: transparent;
     border-color: transparent; }
   #banner hr {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
+    border-bottom-color: transparent; }
   #banner input[type="submit"],
   #banner input[type="reset"],
   #banner input[type="button"],
@@ -1858,7 +1858,7 @@ ul.icons {
       #banner input[type="button"]:hover:active,
       #banner button:hover:active,
       #banner .button:hover:active {
-        background-color: rgba(206, 27, 40, 0.25); }
+        background-color: transparent; }
     #banner input[type="submit"].primary,
     #banner input[type="reset"].primary,
     #banner input[type="button"].primary,
@@ -1890,8 +1890,8 @@ ul.icons {
   #banner input[type="url"],
   #banner select,
   #banner textarea {
-    background-color: rgba(255, 255, 255, 0.075);
-    border-color: rgba(255, 255, 255, 0.25); }
+    background-color: transparent;
+    border-color: transparent; }
     #banner input[type="text"]:focus,
     #banner input[type="password"]:focus,
     #banner input[type="email"]:focus,
@@ -1916,25 +1916,25 @@ ul.icons {
       border-color: rgba(255, 255, 255, 0.25); }
   #banner input[type="checkbox"]:checked + label:before,
   #banner input[type="radio"]:checked + label:before {
-    background-color: #ce1b28;
-    border-color: #ce1b28;
+    background-color: #483d8b;
+    border-color: #483d8b;
     color: #ffffff; }
   #banner input[type="checkbox"]:focus + label:before,
   #banner input[type="radio"]:focus + label:before {
-    border-color: #ce1b28;
-    box-shadow: 0 0 0 1px #ce1b28; }
+    border-color: #483d8b;
+    box-shadow: 0 0 0 1px #483d8b; }
   #banner ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: ra !important; }
   #banner :-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: transparent !important; }
   #banner ::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: transparent !important; }
   #banner :-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: transparent !important; }
   #banner ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
   #banner table tbody tr {
-    border-color: rgba(255, 255, 255, 0.25); }
+    border-color: transparent; }
     #banner table tbody tr:nth-child(2n + 1) {
       background-color: rgba(255, 255, 255, 0.075); }
   #banner table th {
@@ -2010,7 +2010,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: transparent;
     content: ' ';
     display: block;
     height: 100%;
