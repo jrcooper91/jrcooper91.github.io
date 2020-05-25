@@ -1991,10 +1991,10 @@ ul.icons {
     right: 50%;
     width: auto; }
   #banner:before {
-    -moz-transition: opacity 3s ease;
-    -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
-    transition: opacity 3s ease;
+    -moz-transition: opacity 1.5s ease;
+    -webkit-transition: opacity 1.5s ease;
+    -ms-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
     -moz-transition-delay: 1.25s;
     -webkit-transition-delay: 1.25s;
     -ms-transition-delay: 1.25s;
@@ -2392,7 +2392,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    background-image: url("bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
