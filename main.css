@@ -342,28 +342,28 @@ button,
     input[type="button"]:hover:active,
     button:hover:active,
     .button:hover:active {
-      background-color: transparent; }
+      background-color: rgba(206, 27, 40, 0.25); }
   input[type="submit"].primary,
   input[type="reset"].primary,
   input[type="button"].primary,
   button.primary,
   .button.primary {
     box-shadow: none;
-    background-color: #483d8b;
+    background-color: #ce1b28;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #483d8b;
+      background-color: #e2212f;
       box-shadow: none; }
       input[type="submit"].primary:hover:active,
       input[type="reset"].primary:hover:active,
       input[type="button"].primary:hover:active,
       button.primary:hover:active,
       .button.primary:hover:active {
-        background-color: #483d8b; }
+        background-color: #b71824; }
 
 /* Form */
 form {
@@ -505,7 +505,7 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.075);
   border-color: rgba(0, 0, 0, 0.25); }
   input[type="text"]:focus,
   input[type="password"]:focus,
@@ -533,13 +533,13 @@ input[type="radio"] + label {
     border-color: rgba(0, 0, 0, 0.25); }
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background-color: #483d8b;
+  background-color: #ce1b28;
   border-color: #ce1b28;
   color: #ffffff; }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
   border-color: #ce1b28;
-  box-shadow: 0 0 0 1px #483d8b; }
+  box-shadow: 0 0 0 1px #ce1b28; }
 
 ::-webkit-input-placeholder {
   color: #bbbbbb !important; }
@@ -1797,8 +1797,8 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #ffffff;
-  color: transparent;
+  background-color: #111111;
+  color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1811,7 +1811,7 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("udf.jpg");
+  background-image: url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1826,18 +1826,18 @@ ul.icons {
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
   #banner a {
-    color: #ffffff; }
+    color: #ce1b28; }
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
     color: #ffffff; }
   #banner blockquote {
-    border-left-color: transparent; }
+    border-left-color: rgba(255, 255, 255, 0.25); }
   #banner code {
-    background: transparent;
-    border-color: transparent; }
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
   #banner hr {
-    border-bottom-color: transparent; }
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
   #banner input[type="submit"],
   #banner input[type="reset"],
   #banner input[type="button"],
@@ -1858,7 +1858,7 @@ ul.icons {
       #banner input[type="button"]:hover:active,
       #banner button:hover:active,
       #banner .button:hover:active {
-        background-color: transparent; }
+        background-color: rgba(206, 27, 40, 0.25); }
     #banner input[type="submit"].primary,
     #banner input[type="reset"].primary,
     #banner input[type="button"].primary,
@@ -1890,8 +1890,8 @@ ul.icons {
   #banner input[type="url"],
   #banner select,
   #banner textarea {
-    background-color: transparent;
-    border-color: transparent; }
+    background-color: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
     #banner input[type="text"]:focus,
     #banner input[type="password"]:focus,
     #banner input[type="email"]:focus,
@@ -1900,12 +1900,12 @@ ul.icons {
     #banner input[type="url"]:focus,
     #banner select:focus,
     #banner textarea:focus {
-      border-color: #ffffff;
+      border-color: #ce1b28;
       box-shadow: 0 0 0 1px #ce1b28; }
   #banner select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
     #banner select option {
-      color: transparent;
+      color: rgba(255, 255, 255, 0.5);
       background-color: #111111; }
   #banner input[type="checkbox"] + label,
   #banner input[type="radio"] + label {
@@ -1916,25 +1916,25 @@ ul.icons {
       border-color: rgba(255, 255, 255, 0.25); }
   #banner input[type="checkbox"]:checked + label:before,
   #banner input[type="radio"]:checked + label:before {
-    background-color: #483d8b;
-    border-color: #483d8b;
+    background-color: #ce1b28;
+    border-color: #ce1b28;
     color: #ffffff; }
   #banner input[type="checkbox"]:focus + label:before,
   #banner input[type="radio"]:focus + label:before {
-    border-color: #483d8b;
-    box-shadow: 0 0 0 1px #483d8b; }
+    border-color: #ce1b28;
+    box-shadow: 0 0 0 1px #ce1b28; }
   #banner ::-webkit-input-placeholder {
-    color: ra !important; }
+    color: rgba(255, 255, 255, 0.4) !important; }
   #banner :-moz-placeholder {
-    color: transparent !important; }
+    color: rgba(255, 255, 255, 0.4) !important; }
   #banner ::-moz-placeholder {
-    color: transparent !important; }
+    color: rgba(255, 255, 255, 0.4) !important; }
   #banner :-ms-input-placeholder {
-    color: transparent !important; }
+    color: rgba(255, 255, 255, 0.4) !important; }
   #banner ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
   #banner table tbody tr {
-    border-color: transparent; }
+    border-color: rgba(255, 255, 255, 0.25); }
     #banner table tbody tr:nth-child(2n + 1) {
       background-color: rgba(255, 255, 255, 0.075); }
   #banner table th {
@@ -2010,7 +2010,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: transparent;
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2061,7 +2061,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url("cta01.jpg");
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2392,7 +2392,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(bg.jpg);
+    background-image: url(../../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2499,7 +2499,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("banner.jpg");
+  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
